@@ -1,3 +1,4 @@
+import { executeProxy } from "./DesignPatterns/ProxyPattern";
 import { DependencyInversionExample } from "./Solid/DInSolid/DepedencyInversionExample";
 import { DependencyInversion } from "./Solid/DInSolid/DependencyInversionPrinciple";
 import { Segregation } from "./Solid/IinSolid/InterfaceSegregationPrinciple";
@@ -48,4 +49,9 @@ console.log("ts node has been printeed\n");
  * D example in solid
  */
 // DependencyInversion();
-DependencyInversionExample();
+// DependencyInversionExample();
+
+/**
+ * proxy pattern
+ */
+executeProxy();
